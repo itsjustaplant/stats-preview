@@ -4,6 +4,12 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.attribution{
+    position: fixed;
+    bottom: 0;
 }
 @media screen and (max-width: 767px) {
     main {
@@ -196,10 +202,11 @@ and (max-width: 1199px){
     }
 }
 @media screen and (min-width: 1200px){
+    body{
+        display: flex;
+    }
     main {
         display: grid;
-        margin-top: 88px;
-        margin-left: 11.5%;
         width: 77%;
         background-color: #1c1938;
         border-radius: 0 0 8px 8px;
